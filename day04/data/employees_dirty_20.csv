@@ -1,0 +1,21 @@
+employee_id,name,department,salary,years_of_experience,performance_rating
+1,Ahmad,IT,1200.0,9,4.5
+2,Sara,it,,5,4.2
+3,Omar, IT,1100.0,7,
+4,Lina,Hr,950.0,4,3.8
+5,Khaled,HR,1050.0,-2,4.1
+6,Mona,finance,900.0,3,7.0
+7,Yousef,Finance,1300.0,8,4.7
+8,Noura,IT,,6,4.0
+9,Hassan,HR,1000.0,5,
+10,Reem,Finance,1150.0,7,4.4
+11,Fahad,it,1250.0,10,4.8
+12,Huda, IT,980.0,3,3.9
+13,Ali,Hr,,2,3.7
+14,Maryam,HR,1080.0,6,4.3
+15,Abdullah,finance,1400.0,11,4.9
+16,Dana,Finance,1020.0,4,4.1
+17,Salem,IT,1180.0,7,4.6
+18,Layla,it,970.0,3,3.6
+5,Khaled,HR,1050.0,-2,4.1
+10,Reem,Finance,1150.0,7,4.4
