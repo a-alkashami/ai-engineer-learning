@@ -21,7 +21,10 @@ def validate_employee_data(employees:pd.DataFrame)->None:
         logger.error("The DataFrame is empty")
         raise ValueError("The DataFrame is empty")
     
-    
+def get_summary_statistics(employees: pd.DataFrame) -> pd.DataFrame:
+    validate_employee_data(employees)
+    summary = employees[NUMERIC_COLUMNS].describe()
+    return summary    
     
 def get_correlation_matrix(
     employees: pd.DataFrame,
@@ -32,10 +35,7 @@ def get_correlation_matrix(
 
 
 
-def get_summary_statistics(employees: pd.DataFrame) -> pd.DataFrame:
-    validate_employee_data(employees)
-    summary = employees[NUMERIC_COLUMNS].describe()
-    return summary
+
 
 
 def get_department_summary(employees: pd.DataFrame) -> pd.DataFrame:
